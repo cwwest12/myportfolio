@@ -2,25 +2,25 @@
 <html>
 <head>
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   
   <nav>
     
-    <h2></h2>
-    <ul>
-      <li>
+    <h2 id="title"></h2>
+    <ul class="navigationItems">
+      <li class="navigationItem">
         
       </li>
-      <li>
+      <li class="navigationItem">
         
       </li>
-      <li>
+      <li class="navigationItem">
         
       </li>
-      <li>
+      <li class="navigationItem">
         
       </li>
     </ul>
@@ -30,9 +30,9 @@
   
   <main>
     
-    <section>
-      <div>
-        <div>
+    <section id="aboutMe">
+      <div id="aboutMeContainer>
+        <div id="aboutMeTextContainer>
           <h2></h2>
           <p></p>
           <p></p>
@@ -44,42 +44,52 @@
       
     </section>
     
-    <section>
+    <section id="projects>
       
       <h2></h2>
-      <details>
-        <summary>
+      <details class="project">
+        <summary class="projectTitle">
           ::marker
           <h3></h3>
         </summary>
         <img>
         <p></p>
+      
       </details>
       
-      <details>
-        <summary>
+      <details class="project">
+        <summary class="projectTitle">
           ::marker
           <h3></h3>
         </summary>
         <img>
         <p></p>
+        
       </details>
       
-      <details>
-        <summary>
+      <details class="project>
+        <summary class="projectTitle">
           ::marker
           <h3></h3>
         </summary>
         <img>
         <p></p>
+        
       </details>
       
     </section>
 
+    <section id="riddle">
+      <label for="riddleBox">Random Riddle</label>
+      <textarea id="riddleBox" name="riddleBox" rows="8" cols="25"></textarea>
+      <button id="generateButton">Generate New Riddle!</button>
+      
+    </section>
+
     
-    <section>
+    <section id="skills">
       <h2></h2>
-      <div>
+      <div id="skillsContainer">
         <i></i>
         <i></i>
         <i></i>
@@ -92,7 +102,7 @@
   
   <footer></footer>
   
-  <script></script>
+  <script src="script.js"></script>
   
 </body>
 </html>
