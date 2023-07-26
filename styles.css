@@ -1,40 +1,118 @@
+@font-face {
+  font-family: 'Proza Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/prozalibre/v9/LYjbdGHgj0k1DIQRyUEyyEKTUc_WeJGK9g.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Proza Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/prozalibre/v9/LYjbdGHgj0k1DIQRyUEyyEKTUc_YeJE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
 html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  color: var(--font-color);
+}
+
+:root {
+  --spacing-1: 8px;
+  --spacing-2: 12px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+
+  --border-radius: 12px;
+  --font-color: #323232;
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 var(--spacing-3);
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 0;
 }
 
 h2 {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0;
+  margin-bottom: var(--spacing-2);
 }
 
 p {
 }
 
 #title {
+  margin: 0;
 }
 
 ul {
 }
 
 .naivgationItems {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
 }
 
 .navigationItem {
+  margin: var(--spacing-1);
 }
 
-main {
+.portrait {
+  width: 300px;
+  border-radius: var(--border-radius);
+  flex-shrink: 0;
 }
+
+section {
+  padding: var(--spacing-3) 0;
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 600;
 
 #aboutMe {
 }
 
-#aboutMeContainer {
+.aboutMeContainer {
+  display: flex;
 }
 
-#aboutMeTextContainer {
+.aboutMeTextContainer {
+  margin-right: va(--spacing-3);
 }
 
 #projects {
@@ -46,7 +124,12 @@ h3 {
 .project {
 }
 
-.projectTitle {
+.projectTitle h3 {
+  display: inline;
+}
+
+details {
+  cursor: pointer;
 }
 
 #riddle {
@@ -56,13 +139,27 @@ h3 {
 }
 
 #skillsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 i {
 }
 
 footer {
+  margin-top: auto;
+  padding: var(--spacing-3) 0;
+  text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .aboutMeContainer {
+    flex-direction: column;
+  }
+}
+  
 
   
 
