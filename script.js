@@ -78,15 +78,9 @@ const generateAndDisplayAnswer = () => {
 
 
 const riddleButton = document.getElementById("riddleButton");
-riddleButton.addEventListener('click', (event) => {
-  event.preventDefault();
-  generateAndDisplayRiddle();
-});
+riddleButton.addEventListener('click', generateAndDisplayRiddle());
 
 const answerButton = document.getElementById("answerButton");
-answerButton.addEventListener('click', (event) => {
-  event.preventDefault();
-  generateAndDisplayAnswer();
-});
+answerButton.addEventListener('click', generateAndDisplayAnswer());
 
 
