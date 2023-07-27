@@ -65,8 +65,8 @@ const addAnswer = (element, input) => {
 
 const generateAndDisplayRiddle = () => {
   const riddle = populateRiddle(riddles);
-  clearRiddle(riddleContainer);
-  addRiddle(riddleContainer, riddle);
+  clearRiddle(riddleBox);
+  addRiddle(riddleBox, riddle);
 }
 
 const generateAndDisplayAnswer = () => {
