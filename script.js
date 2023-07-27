@@ -70,16 +70,23 @@ const generateAndDisplayRiddle = () => {
 }
 
 const generateAndDisplayAnswer = () => {
-  const answer = findAnswer(riddleContainer.innerHTML);
+  const riddle = riddleBox.value;
+  const answer = findAnswer(riddle);
   clearAnswer(answer);
-  addAnswer(answerContainer, answer); 
+  addAnswer(answerBox, answer); 
 }
 
 
 const riddleButton = document.getElementById("riddleButton");
-riddleButton.addEventListener('click', generateAndDisplayRiddle);
+riddleButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  generateAndDisplayRiddle();
+});
 
 const answerButton = document.getElementById("answerButton");
-answerButton.addEventListener('click', generateAndDisplayAnswer);
+answerButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  generateAndDisplayAnswer();
+});
 
 
