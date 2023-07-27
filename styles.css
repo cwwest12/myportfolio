@@ -83,8 +83,6 @@ ul {
   align-items: center;
   margin: 0;
   margin-left: auto;
-  flex-direction: row;
-  justify-items: right;
 }
 
 .navigationItem {
