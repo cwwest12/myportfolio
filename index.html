@@ -52,38 +52,44 @@
       <h2>Projects</h2>
       <details class="project">
         <summary class="projectTitle">
-          ::marker
           <h3>Lineup Generator</h3>
         </summary>
-        <a src="https://cwwest12.github.io/lineup_generator/"></a>
-        <p>" I made a program that generates random Fantast Football Player lineups. "</p>
+        <img
+          src=""
+          alt=""
+          class="projectImg"/>
+        <p class="projectDescription">I made a program that generates random Fantast Football Player lineups.</p>
       
       </details>
       
       <details class="project">
         <summary class="projectTitle">
-          ::marker
           <h3>Washer Players' Club</h3>
         </summary>
-        <a src="https://cwwest12.github.io/washerplayersclub/"></a>
-        <p>" Here I created a webpage to offer people a chance to play in The Washer Players' Club of America. "</p>
+        <img
+          src=""
+          alt=""
+          class="projectImg"/>
+        <p class="projectDescription">Here I created a webpage to offer people a chance to play in The Washer Players' Club of America.</p>
         
       </details>
       
       <details class="project">
         <summary class="projectTitle">
-          ::marker
           <h3>Credit Card Validator</h3>
         </summary>
-        <a src="https://cwwest12.github.io/creditCardValidator/"></a>
-        <p></p>
+        <img
+          src=""
+          alt=""
+          class="projectImg"/>
+        <p class="projectDescription">With this project, I wrote some JavaScript code that will validate credit card numbers.</p>
         
       </details>
       
     </section>
 
     <section id="riddle">
-      <form method="POST" action="/index.html">
+      <form>
         <label for="riddleBox">Random Riddle</label>
         <br>
         <br>
@@ -91,7 +97,7 @@
         <br>
         <br>
         
-        <input type="submit" id="riddleButton" value="Generate Riddle">
+        <input type="submit" id="riddleButton" value="Generate Riddle" onclick="generateAndDisplayRiddle()">
         <br>
         <br>
 
@@ -100,7 +106,7 @@
         <br>
         <br>
         
-        <input type="submit" id="answerButton" value="Show Answer">
+        <input type="submit" id="answerButton" value="Show Answer" onclick="generateAndDisplayAnswer()">
         <br>
         <br>
         
