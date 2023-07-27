@@ -31,23 +31,23 @@ const findAnswer = (str) => {
   let answer;
   
   switch (str) {
-    case 'What comes down but never goes up?';
+    case 'What comes down but never goes up?':
       answer = "Rain";
       break;
 
-    case 'I am not alive, but I grow; I don\'t have lungs, but I need air; I don\'t have a mouth, but water kills me. What am I?';
+    case 'I am not alive, but I grow; I don\'t have lungs, but I need air; I don\'t have a mouth, but water kills me. What am I?':
       answer = "Fire";
       break;
 
-    case 'What has a heart that doesn\'t beat, and leaves but never walks?';
+    case 'What has a heart that doesn\'t beat, and leaves but never walks?':
       answer = "Artichoke";
       break;
 
-    case 'I am always in front of you but can never be seen. What am I?';
+    case 'I am always in front of you but can never be seen. What am I?':
       answer = "The Future";
       break;
 
-    case 'What gets bigger when more is taken away from it?';
+    case 'What gets bigger when more is taken away from it?':
       answer = "A Hole";
       break;
 
