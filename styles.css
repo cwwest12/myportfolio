@@ -75,6 +75,7 @@ p {
 }
 
 ul {
+  display: flex;
 }
 
 .naivgationItems {
