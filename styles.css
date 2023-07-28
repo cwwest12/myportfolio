@@ -57,6 +57,7 @@ body {
 nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   padding: var(--spacing-3) 0;
 }
 
@@ -93,6 +94,7 @@ ul {
   width: 300px;
   border-radius: var(--border-radius);
   flex-shrink: 0;
+  align-self: flex-end;
 }
 
 section {
@@ -112,7 +114,7 @@ a {
 }
 
 .aboutMeTextContainer {
-  margin-right: va(--spacing-3);
+  margin-right: var(--spacing-3);
 }
 
 #projects {
@@ -133,6 +135,7 @@ details {
 }
 
 #riddle {
+  float: right;
 }
 
 #skills {
