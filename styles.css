@@ -88,7 +88,7 @@ ul {
 }
 
 .navigationItem {
-  margin: var(--spacing-1);
+  margin: var(--spacing-3);
 }
 
 .portrait {
@@ -96,6 +96,7 @@ ul {
   border-radius: var(--border-radius);
   flex-shrink: 0;
   margin-left: auto;
+  float: right;
 }
 
 section {
