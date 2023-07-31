@@ -133,6 +133,11 @@ h3 {
   display: inline;
 }
 
+.projectImg {
+  max-width: 200px;
+  height: auto;
+}
+
 details {
   cursor: pointer;
 }
