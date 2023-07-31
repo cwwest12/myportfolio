@@ -133,7 +133,7 @@ h3 {
   display: inline;
 }
 
-img .projectImg {
+img.projectImg {
   max-width: 300px;
   height: auto;
 }
