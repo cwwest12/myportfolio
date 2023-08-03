@@ -45,6 +45,10 @@ html, body {
   --font-color: #323232;
 }
 
+.heart {
+  color: red;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   padding: 0 var(--spacing-3);
