@@ -174,14 +174,6 @@ footer {
   padding: var(--spacing-3) 0;
   text-align: center;
 }
-
-#main-content {
-  display: flex;
-}
-
-#main-content .div {
-  flex: 1;
-}
   
 @media only screen and (max-width: 600px) {
   .aboutMeContainer {
