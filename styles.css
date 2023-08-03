@@ -142,6 +142,10 @@ details {
   cursor: pointer;
 }
 
+summary {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
 #riddle {
   margin-left: auto;
   float: right;
@@ -157,7 +161,10 @@ details {
   flex-wrap: wrap;
 }
 
-i {
+#skillsContainer > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
 }
 
 footer {
