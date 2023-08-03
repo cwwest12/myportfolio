@@ -71,8 +71,6 @@ h2 {
   margin-bottom: var(--spacing-2);
 }
 
-p {
-}
 
 #title {
   margin: 0;
@@ -130,11 +128,6 @@ a {
   max-width: 500px;
 }
 
-h3 {
-}
-
-.project {
-}
 
 .projectTitle h3 {
   display: inline;
