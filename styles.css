@@ -115,11 +115,11 @@ a {
 
 .aboutMeContainer {
   display: flex;
-  max-width: 400px;
 }
 
 .aboutMeTextContainer {
   margin-right: var(--spacing-3);
+  max-width: 500px;
 }
 
 #projects {
