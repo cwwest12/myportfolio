@@ -127,6 +127,7 @@ a {
 }
 
 #projects {
+  max-width: 500px;
 }
 
 h3 {
@@ -162,7 +163,7 @@ summary {
 
 #skillsContainer {
   display: flex;
-  width: 100%;
+  max-width: 500px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
