@@ -78,11 +78,12 @@ h2 {
 
 ul {
   display: flex;
+  list-style: none;
 }
 
 .naivgationItems {
   display: flex;
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   align-items: center;
   margin: 0;
@@ -125,7 +126,8 @@ a {
 }
 
 #projects {
-  max-width: 500px;
+  max-width: 1000px;
+  max-height: 700px;
 }
 
 
@@ -140,6 +142,8 @@ img.projectImg {
 
 details {
   cursor: pointer;
+  max-width: 500px;
+  margin-bottom: 20px;
 }
 
 summary {
@@ -147,7 +151,6 @@ summary {
 }
 
 #riddle {
-  margin-left: auto;
   float: right;
 }
 
