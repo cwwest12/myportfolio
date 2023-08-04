@@ -165,6 +165,34 @@ summary {
   margin-top: var(--spacing-1);
 }
 
+.fa {
+  max-width: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-square-js {
+  content: src="./js.png";
+}
+
+.fa-html5 {
+  content: src="./html5.png";
+}
+
+.fa-css3-alt {
+  content: src="./css3-alt.png";
+}
+
+.fa-git {
+  content: src="./git.png";
+}
+
+.fa-github {
+  content: src="./github.png";
+}
+  
+
 footer {
   margin-top: auto;
   padding: var(--spacing-3) 0;
